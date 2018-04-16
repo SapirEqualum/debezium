@@ -8,13 +8,12 @@ package io.debezium.relational.mapping;
 import io.debezium.annotation.Immutable;
 import io.debezium.config.Configuration;
 import io.debezium.function.Predicates;
-
-import io.debezium.relational.Selectors;
-import io.debezium.relational.ValueConverter;
-import io.debezium.relational.ColumnId;
-import io.debezium.relational.TableId;
-import io.debezium.relational.Table;
 import io.debezium.relational.Column;
+import io.debezium.relational.ColumnId;
+import io.debezium.relational.Selectors;
+import io.debezium.relational.Table;
+import io.debezium.relational.TableId;
+import io.debezium.relational.ValueConverter;
 import io.debezium.util.Strings;
 import org.apache.kafka.connect.errors.ConnectException;
 
